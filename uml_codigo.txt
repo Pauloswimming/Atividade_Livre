@@ -1,0 +1,21 @@
+------------------------------------
+|          CPFValidator            |
+------------------------------------
+| - entrada: str                   |
+| - cpf_enviado_ao_usuario: str    |
+------------------------------------
+| + __init__(entrada: str)         |
+| - _remover_pontuacao(cpf: str) -> str  |
+| - _is_sequencial() -> bool       |
+| - _calcular_digito(cpf_parcial: str, contador_inicial: int) -> int |
+| + validar()                      |
+------------------------------------
+
+------------------------------------
+|             Main                 |
+------------------------------------
+| + input()                        |
+| + print()                        |
+------------------------------------
+| Interação: instancia CPFValidator |
+------------------------------------
